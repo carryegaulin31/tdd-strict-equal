@@ -1,0 +1,25 @@
+{
+  "name": "tdd-strict-equal",
+  "version": "1.0.0",
+  "description": "tdd-strict-equal",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carryegaulin31/tdd-strict-equal.git"
+  },
+  "author": "Carrye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carryegaulin31/tdd-strict-equal/issues"
+  },
+  "homepage": "https://github.com/carryegaulin31/tdd-strict-equal#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.10.0",
+    "mocha": "^8.1.3"
+  }
+}
