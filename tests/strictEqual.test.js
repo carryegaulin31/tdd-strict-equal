@@ -3,6 +3,7 @@ const it = require('mocha').it
 const expect = require('chai').expect
 const strictEqual = require('../calculate')
 
+
 describe('calculate', () => {
   describe('strictEqual', () => {
     it('returns true if the numbers are equal to one another', () => {
