@@ -5,7 +5,7 @@
   "main": ".eslintrc.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint --format codeframe .",
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha tests/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
     "url": "https://github.com/carryegaulin31/tdd-strict-equal/issues"
   },
   "homepage": "https://github.com/carryegaulin31/tdd-strict-equal#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^7.10.0",
     "mocha": "^8.1.3"
