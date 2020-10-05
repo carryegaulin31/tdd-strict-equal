@@ -1,0 +1,45 @@
+body {
+    background-color: darkseagreen;
+    background-image: ;
+  }
+  h1 {
+      color: linen;
+      text-align: center;
+      text-shadow: 2px 2px 5px moccasin
+  }
+  p {
+      text-align: center;
+      border-style: solid ;
+      border-width: medium;
+      border-color: moccasin;
+  
+  }
+  p {
+      color: linen;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    li {
+      float: right;
+    }
+    
+    li a {
+      display: inline-block;
+      color: rgb(54, 120, 158);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: moccasin;
+    }
+    
+    .active {
+      background-color: rgb(224, 170, 191);
+    }
